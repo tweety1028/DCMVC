@@ -6,7 +6,7 @@ This repo contains the code and data associated with our [DCMVC](https://ieeexpl
 
 ![image-20241102132600600](D:\文档集合\typora笔记图片\image-20241102132600600.png)
 
-The overall framework of the proposed DCMVC within an Expectation-Maximization framework. The framework includes: (a) View-specific Autoencoders and Adaptive Feature Fusion Module, which extracts high-level features and fuses them into consensus representations (with loss $\mathcal{L}_{\mathrm{rec}}$); (b) Dynamic Cluster Diffusion Module, enhancing inter-cluster separation by maximizing the distance between clusters (with loss $\mathcal{L}_{\mathrm{dcd}}$); (c) Reliable Neighbor-guided Positive Alignment Module, improving within-cluster compactness using a pseudo-label and nearest neighbor structure-driven contrastive learning (with loss $\mathcal{L}_{\mathrm{rngpa}}$); (d) Clustering-friendly Structure, ensuring well-separated and compact clusters.
+The overall framework of the proposed DCMVC within an Expectation-Maximization framework. The framework includes: (a) View-specific Autoencoders and Adaptive Feature Fusion Module, which extracts high-level features and fuses them into consensus representations; (b) Dynamic Cluster Diffusion Module, enhancing inter-cluster separation by maximizing the distance between clusters; (c) Reliable Neighbor-guided Positive Alignment Module, improving within-cluster compactness using a pseudo-label and nearest neighbor structure-driven contrastive learning (with loss; (d) Clustering-friendly Structure, ensuring well-separated and compact clusters.
 
 ## Requirements
 
