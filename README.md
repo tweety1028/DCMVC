@@ -11,11 +11,17 @@ The overall framework of the proposed DCMVC within an Expectation-Maximization f
 ## Requirements
 
 hdf5storage==0.1.19
+
 matplotlib==3.5.3
+
 numpy==1.20.1
+
 scikit_learn==0.23.2
+
 scipy==1.7.1
+
 torch==1.8.1+cu111
+
 
 ## Datasets
 
