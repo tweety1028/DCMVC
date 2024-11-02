@@ -7,7 +7,7 @@ import random
 import os
 from loss import *
 
-Dataname = 'ALOI-100'
+Dataname = 'RGB-D'
 parser = argparse.ArgumentParser(description='train')
 parser.add_argument('--dataset', default=Dataname, help = '[CCV, RGB-D, Cora, ALOI-100, Hdigit, Digit-Product]')
 parser.add_argument('--save_model', default=True, help='Saving the model after training.')
