@@ -4,7 +4,7 @@ from model import *
 import numpy as np
 import argparse
 
-Dataname = 'CCV'
+Dataname = 'RGB-D'
 parser = argparse.ArgumentParser(description='test')
 parser.add_argument('--dataset', default=Dataname, help = '[CCV, RGB-D, Cora, ALOI-100, Hdigit, Digit-Product]')
 parser.add_argument('--load_model', default=False, help='Testing if True or training.')
