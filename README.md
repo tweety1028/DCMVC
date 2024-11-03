@@ -23,7 +23,8 @@ scipy==1.7.1
 torch==1.8.1+cu111
 
 
-## Datasets
+## Datasets & trained models
+The Cora, ALOI-100, Hdigit, and Digit-Product datasets, along with the trained models for these datasets, can be downloaded from [Google Drive](https://drive.google.com/drive/folders/108M1L8fqFk4ZcViZWqQbDe3a2d-uGcXd?usp=drive_link) or [Baidu Cloud](https://pan.baidu.com/s/10vzfz623i4NMx-HslacObQ) password: data.
 
 ## Usage
 
